@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "y",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,5 +42,9 @@
   "devDependencies": {
     "tailwindcss": "^3.4.7",
     "typescript": "^5.5.4"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:yincongcyincong/react-practice.git",
+  "author": "yincong <yincong@baidu.com>",
+  "license": "MIT"
 }

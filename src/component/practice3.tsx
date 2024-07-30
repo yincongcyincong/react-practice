@@ -4,12 +4,17 @@ import "./practice3.css"
 const Practice3 = () => {
 
   const [rotateClass, setRotateClass] = useState("circle-container")
+  const [contentClass, setContentClass] = useState("content")
+
 
   const Rotate = () => {
+    console.log(rotateClass, rotateClass.includes(" show-nav"))
     if (!rotateClass.includes(" show-nav")) {
       setRotateClass(rotateClass + " show-nav")
+      setContentClass(contentClass => "content-rotate")
     } else {
       setRotateClass(rotateClass.replace(" show-nav", ""))
+      setContentClass(contentClass => "content")
     }
   }
 
@@ -25,7 +30,7 @@ const Practice3 = () => {
           </div>
         </div>
       </div>
-      <div className="content">
+      <div className={contentClass}>
         <h1>Amazing Article</h1>
         <small>Florin Pop</small>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia in ratione dolores cupiditate,

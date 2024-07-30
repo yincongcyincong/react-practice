@@ -36,3 +36,19 @@
 #close {
   background: transparent;
 }
+
+.content-rotate {
+  max-width: 1000px;
+  margin: 50px auto;
+  transform: rotate(-20deg);
+  transform-origin: left top; /* 旋转中心点设置为左上角 */
+  transition: transform 0.5s linear;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+  transform: rotate(0deg);
+  transform-origin: left top; /* 旋转中心点设置为左上角 */
+  transition: transform 0.5s linear;
+}
