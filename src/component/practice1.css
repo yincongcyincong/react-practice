@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  width: 90vw;
+}
+
+.panel{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  flex:0.5;
+  margin: 10px;
+  position: relative;
+  -webkit-transition: all 700ms ease-in;
+  -webkit-filter: blur(3px); /* Chrome, Opera */
+  -moz-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+
+}
+
+
+.img1 {
+  background-image: url('https://uploadstatic.mihoyo.com/contentweb/20200103/2020010311083818450.png')
+}
+
+.img2 {
+  background-image: url('https://uploadstatic.mihoyo.com/contentweb/20200315/2020031516372312969.png')
+}
+
+.img3 {
+  background-image: url('https://uploadstatic.mihoyo.com/contentweb/20200828/2020082814270362598.png')
+}
+
+.img4 {
+  background-image: url('https://uploadstatic.mihoyo.com/contentweb/20210105/2021010519112015673.png')
+}
+
+.img5 {
+  background-image: url('https://uploadstatic.mihoyo.com/contentweb/20210720/2021072011090118454.png')
+}
+
+.panel h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+.panel.active{
+  flex: 5;
+  -webkit-filter: blur(0px); /* Chrome, Opera */
+  -moz-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+}
+
+.panel.active h3{
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
