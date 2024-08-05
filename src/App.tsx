@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import Practice3 from "./component/practice3";
+import Practice1 from "./component/practice1";
 
 function App() {
   return (
     <div className="App">
 
-      {/*<Prictice1/>*/}
+      <Practice1/>
       {/*<Prictice2/>*/}
-      <Practice3/>
+      {/*<Practice3/>*/}
+      {/*<Practice4/>*/}
     </div>
   );
 }

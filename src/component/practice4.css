@@ -1,0 +1,39 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #61dafb;
+  align-items: center;
+}
+
+input {
+  border-radius: 0;
+  border: none;
+  height: 28px;
+  transition: width 0.5s ease;
+  outline: none;
+}
+
+
+.open {
+  width: 200px;
+}
+
+.close {
+  width: 0;
+}
+
+button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0;
+  height: 30px;
+}
+
+button:hover {
+  background-color: aquamarine;
+}
