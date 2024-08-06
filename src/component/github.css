@@ -36,6 +36,8 @@
   width: 30px;
   height: 30px;
   margin: 0 10px 0 20px;
+  border-radius: 100%;
+  cursor: pointer;
 }
 
 .icon-img {
@@ -72,15 +74,21 @@
   border-radius: 5px;
 }
 
-.left-all-func.active {
+.left-all-func {
+  transition: width 0.5s ease;
   position: absolute;
-  width: 350px;
+  width: 0;
   height: 100%;
   top: 0;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   background: #ffffff;
   z-index: 3;
+}
+
+.left-all-func.active {
+  height: 100%;
+  width: 350px;
 }
 
 .black.active {
@@ -90,4 +98,32 @@
   background-color: black;
   position: absolute;
   opacity: 0.2;
+}
+
+.right-all-func {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.show-right-all-func {
+  transition: width 0.5s ease;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
+.show-right-all-func.active {
+  height: 100%;
+  width: 350px;
+}
+
+.right-content {
+  width: 300px;
 }
