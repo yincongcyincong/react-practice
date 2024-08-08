@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Github from "./component/github";
+import Reducer from "./component/reducer";
 
 function App() {
   return (
@@ -10,7 +10,9 @@ function App() {
       {/*<Prictice2/>*/}
       {/*<Practice3/>*/}
       {/*<Practice4/>*/}
-      <Github/>
+      {/*<Github/>*/}
+      {/*<Context/>*/}
+      <Reducer/>
     </div>
   );
 }
