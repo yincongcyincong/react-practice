@@ -22,11 +22,11 @@ const Reducer = () => {
     <div>
       <div>{state?.age}</div>
       <button onClick={() => {
-        dispatch("incre")
+        dispatch("increm")
       }}>+
       </button>
       <button onClick={() => {
-        dispatch("decre")
+        dispatch("decrem")
       }}>-
       </button>
     </div>
