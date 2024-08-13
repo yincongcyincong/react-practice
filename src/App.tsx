@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Reducer from "./component/reducer";
+import Stopwatch from "./component/userRef";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/*<Practice4/>*/}
       {/*<Github/>*/}
       {/*<Context/>*/}
-      <Reducer/>
+      {/*<Reducer/>*/}
+      <Stopwatch/>
     </div>
   );
 }
