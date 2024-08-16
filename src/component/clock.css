@@ -1,0 +1,82 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-trim {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  border: 1px #9ca3af solid;
+}
+
+.clock {
+  width: 3px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -1.5px;
+  border-radius: 8px;
+  transform-origin: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hour-hand {
+  position: absolute;
+  left: 50%;
+  width: 3px;
+  height: 50px;
+  border: 1px #9ca3af solid;
+  margin-top: 50px;
+  transform-origin: 50% 100%;
+}
+
+.minute-hand {
+  position: absolute;
+  left: 50%;
+  width: 3px;
+  height: 70px;
+  border: 1px #9ca3af solid;
+  margin-top: 30px;
+  transform: rotate(-30deg);
+  transform-origin: 50% 100%;
+}
+
+.second-hand {
+  position: absolute;
+  left: 50%;
+  width: 3px;
+  height: 90px;
+  border: 1px #9ca3af solid;
+  margin-top: 10px;
+  transform-origin: 50% 100%;
+}
+
+.clock-level1 {
+
+}
+
+.clock-level2 {
+  transform: rotateZ(-30deg);
+}
+
+.clock-level3 {
+  transform: rotateZ(-60deg);
+}
+
+.clock-level4 {
+  transform: rotateZ(90deg);
+}
+
+.clock-level5 {
+  transform: rotateZ(60deg);
+}
+
+.clock-level6 {
+  transform: rotateZ(30deg);
+}
