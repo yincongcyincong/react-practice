@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import Reducer from "./component/reducer";
-import Stopwatch from "./component/userRef";
+import Promise_test from "./component/promise_test";
 
 function App() {
   return (
@@ -14,7 +13,9 @@ function App() {
       {/*<Github/>*/}
       {/*<Context/>*/}
       {/*<Reducer/>*/}
-      <Stopwatch/>
+      {/*<Stopwatch/>*/}
+      {/*<Clock/>*/}
+      <Promise_test/>
     </div>
   );
 }
