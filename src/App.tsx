@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Promise_test from "./component/promise_test";
+import UseMemo from "./component/useMemo";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/*<Reducer/>*/}
       {/*<Stopwatch/>*/}
       {/*<Clock/>*/}
-      <Promise_test/>
+      {/*<Promise_test/>*/}
+      <UseMemo/>
     </div>
   );
 }
