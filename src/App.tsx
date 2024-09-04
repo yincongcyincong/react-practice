@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Promise_test from "./component/promise_test";
 import UseMemo from "./component/useMemo";
+import ControllerConpontent from "./component/controller_conpontent";
+import EventDelegation from "./component/event_delegation";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       {/*<Stopwatch/>*/}
       {/*<Clock/>*/}
       {/*<Promise_test/>*/}
-      <UseMemo/>
+      {/*<UseMemo/>*/}
+      {/*<ControllerConpontent/>*/}
+      <EventDelegation/>
     </div>
   );
 }

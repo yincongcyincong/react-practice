@@ -1,0 +1,14 @@
+.black {
+  background: black;
+}
+
+.empty {
+  border: 1px black solid;
+  width: 100px;
+  height: 100px;
+
+}
+.event_delegation {
+  display: flex;
+  align-items: baseline;
+}
