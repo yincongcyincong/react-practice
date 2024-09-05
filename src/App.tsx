@@ -4,6 +4,7 @@ import Promise_test from "./component/promise_test";
 import UseMemo from "./component/useMemo";
 import ControllerConpontent from "./component/controller_conpontent";
 import EventDelegation from "./component/event_delegation";
+import Apply from "./component/apply";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/*<Promise_test/>*/}
       {/*<UseMemo/>*/}
       {/*<ControllerConpontent/>*/}
-      <EventDelegation/>
+      {/*<EventDelegation/>*/}
+      <Apply/>
     </div>
   );
 }
